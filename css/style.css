@@ -96,7 +96,7 @@ h2, h3, p {
 }
 
 .site-footer li, 
-.site-nav a {
+.site-footer a {
   text-decoration: none;
   color: goldenrod;
   font-size: 25px;
