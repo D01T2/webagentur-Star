@@ -1,0 +1,54 @@
+.kontakt {
+  display: block;
+  background-color: #F2F7F9;
+  border: 6px solid goldenrod;
+  border-radius: 15px;
+  width: 1200px;
+  padding: 1rem;
+  margin: 15px auto;
+}
+
+.kontakt div {
+  margin-bottom: 1rem;
+}
+
+.kontakt label[for]{
+  display: block;
+}
+input, textarea {
+  width: 100%;
+  border: none;
+}
+
+.kontakt textarea {
+  font-size: 15px;
+  border: 1px solid #CEE1E8;
+}
+
+.kontakt input:hover {
+  border: 1px solid #004aad;
+  background-color: lightgoldenrodyellow;
+}
+
+.kontakt textarea:hover {
+  border: 1px solid #004aad;
+  background-color: lightgoldenrodyellow;
+
+}
+
+button {
+  padding: 10px 25px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn {
+  margin-right: 25px;
+  text-align: right;
+}
+
+button:hover {
+  background-color: goldenrod;
+}

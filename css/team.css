@@ -1,0 +1,10 @@
+.tbl table{
+  border: 1px solid #004aad;
+  border-collapse: collapse;
+	width: 1440px;
+}
+
+.tbl h1,
+.tbl h2 {
+  padding: 25px;
+}

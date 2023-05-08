@@ -1,0 +1,107 @@
+@import url(leistungen.css);
+@import url(bilder.css);
+@import url(team.css);
+@import url(impressunm.css);
+@import url(kontakt.css);
+
+/*reset*/
+
+* {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/*typografie*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*color & style*/
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.site-nav,
+.site-footer {
+  background: #004aad;
+} 
+
+h1, h2 {
+  color: #004aad;
+}
+
+h3 {
+  color: goldenrod;
+}
+
+/*nav*/
+
+.logo img {
+  height: 100px;
+}
+
+.site-nav {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.site-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 25px;
+}
+
+.site-nav li a:hover {
+  background-color: #fff;
+  padding: 0.5em;
+}
+/*main*/
+
+h1 {
+  font-size: 50px;
+  padding: 30px 0;
+}
+
+h2, h3, p {
+  padding: 15px 0;
+}
+
+/*footer*/
+.site-footer {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.site-footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+.site-footer li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.site-footer li, a {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 25px;
+}
+
+.site-footer a:hover {
+  background-color: #ffff;
+  padding: 0.5em;
+}
