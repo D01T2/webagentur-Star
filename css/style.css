@@ -95,7 +95,8 @@ h2, h3, p {
   margin-right: 1rem;
 }
 
-.site-footer li, a {
+.site-footer li, 
+.site-nav a {
   text-decoration: none;
   color: goldenrod;
   font-size: 25px;
